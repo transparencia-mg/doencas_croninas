@@ -1,0 +1,550 @@
+{
+  "version": "4.16.6",
+  "time": 15.041,
+  "errors": [],
+  "tasks": [
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "dados_cronicas_ses_2020",
+        "path": "data/dados_cronicas_SES_2020.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "dt_obito",
+              "type": "date"
+            },
+            {
+              "name": "dt_nascimento",
+              "type": "date"
+            },
+            {
+              "name": "nu_idade",
+              "type": "geopoint"
+            },
+            {
+              "name": "sg_sexo",
+              "type": "string"
+            },
+            {
+              "name": "tp_raca_cor",
+              "type": "string"
+            },
+            {
+              "name": "tp_escolaridade",
+              "type": "string"
+            },
+            {
+              "name": "co_municipio_ibge_residencia",
+              "type": "string"
+            },
+            {
+              "name": "co_municipio_ibge_ocorrencia",
+              "type": "string"
+            },
+            {
+              "name": "co_cid_causa_basica",
+              "type": "string"
+            },
+            {
+              "name": "desc_cid_causa_basica",
+              "type": "string"
+            },
+            {
+              "name": "capitulo_cid_causa_basica",
+              "type": "string"
+            },
+            {
+              "name": "categoria_cid_causa_basica",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "cd50f1c160b13d36644d1a4d64e94f22",
+          "bytes": 13192830,
+          "fields": 12,
+          "rows": 75109
+        }
+      },
+      "time": 3.416,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "dados_cronicas_ses_2021",
+        "path": "data/dados_cronicas_SES_2021.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "dt_obito",
+              "type": "date"
+            },
+            {
+              "name": "dt_nascimento",
+              "type": "datetime"
+            },
+            {
+              "name": "nu_idade",
+              "type": "geopoint"
+            },
+            {
+              "name": "sg_sexo",
+              "type": "string"
+            },
+            {
+              "name": "tp_raca_cor",
+              "type": "string"
+            },
+            {
+              "name": "tp_escolaridade",
+              "type": "string"
+            },
+            {
+              "name": "co_municipio_ibge_residencia",
+              "type": "string"
+            },
+            {
+              "name": "co_municipio_ibge_ocorrencia",
+              "type": "string"
+            },
+            {
+              "name": "co_cid_causa_basica",
+              "type": "string"
+            },
+            {
+              "name": "desc_cid_causa_basica",
+              "type": "string"
+            },
+            {
+              "name": "capitulo_cid_causa_basica",
+              "type": "string"
+            },
+            {
+              "name": "categoria_cid_causa_basica",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "8a36941dd18beafe678eda85752e53e8",
+          "bytes": 14476030,
+          "fields": 12,
+          "rows": 78526
+        }
+      },
+      "time": 3.987,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [
+        {
+          "cell": "19/04/1899",
+          "fieldName": "dt_nascimento",
+          "fieldNumber": 2,
+          "fieldPosition": 2,
+          "cells": [
+            "2021-06-12",
+            "19/04/1899",
+            "122,0",
+            "Feminino",
+            "Branca",
+            "Nenhuma",
+            "Rubim",
+            "Rubim",
+            "I64",
+            "ACID VASC CEREBR NE COMO HEMORRAG ISQUEMICO",
+            "IX. DOENÇAS DO APARELHO CIRCULATÓRIO",
+            "ACID VASC CEREBR NE COMO HEMORRAG ISQUEMICO"
+          ],
+          "rowNumber": 34053,
+          "rowPosition": 34054,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"datetime/default\"",
+          "message": "Type error in the cell \"19/04/1899\" in row \"34054\" and field \"dt_nascimento\" at position \"2\": type is \"datetime/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        }
+      ],
+      "stats": {
+        "errors": 1
+      },
+      "valid": false
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "dados_cronicas_ses_2022",
+        "path": "data/dados_cronicas_SES_2022.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "dt_obito",
+              "type": "date"
+            },
+            {
+              "name": "dt_nascimento",
+              "type": "date"
+            },
+            {
+              "name": "nu_idade",
+              "type": "geopoint"
+            },
+            {
+              "name": "sg_sexo",
+              "type": "string"
+            },
+            {
+              "name": "tp_raca_cor",
+              "type": "string"
+            },
+            {
+              "name": "tp_escolaridade",
+              "type": "string"
+            },
+            {
+              "name": "co_municipio_ibge_residencia",
+              "type": "string"
+            },
+            {
+              "name": "co_municipio_ibge_ocorrencia",
+              "type": "string"
+            },
+            {
+              "name": "co_cid_causa_basica",
+              "type": "string"
+            },
+            {
+              "name": "desc_cid_causa_basica",
+              "type": "string"
+            },
+            {
+              "name": "capitulo_cid_causa_basica",
+              "type": "string"
+            },
+            {
+              "name": "categoria_cid_causa_basica",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "0071a4d6a8a072b381f12563e5190ce1",
+          "bytes": 14485505,
+          "fields": 12,
+          "rows": 82309
+        }
+      },
+      "time": 3.67,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "dados_cronicas_ses_2023",
+        "path": "data/dados_cronicas_SES_2023.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "dt_obito",
+              "type": "date"
+            },
+            {
+              "name": "dt_nascimento",
+              "type": "date"
+            },
+            {
+              "name": "nu_idade",
+              "type": "geopoint"
+            },
+            {
+              "name": "sg_sexo",
+              "type": "string"
+            },
+            {
+              "name": "tp_raca_cor",
+              "type": "string"
+            },
+            {
+              "name": "tp_escolaridade",
+              "type": "string"
+            },
+            {
+              "name": "co_municipio_ibge_residencia",
+              "type": "string"
+            },
+            {
+              "name": "co_municipio_ibge_ocorrencia",
+              "type": "string"
+            },
+            {
+              "name": "co_cid_causa_basica",
+              "type": "string"
+            },
+            {
+              "name": "desc_cid_causa_basica",
+              "type": "string"
+            },
+            {
+              "name": "capitulo_cid_causa_basica",
+              "type": "string"
+            },
+            {
+              "name": "categoria_cid_causa_basica",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "4c6d0e5add76d25425ec39fcad54eed9",
+          "bytes": 13980171,
+          "fields": 12,
+          "rows": 79445
+        }
+      },
+      "time": 3.586,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "dados_cronicas_ses_2024",
+        "path": "data/dados_cronicas_SES_2024.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "dt_obito",
+              "type": "date"
+            },
+            {
+              "name": "dt_nascimento",
+              "type": "date"
+            },
+            {
+              "name": "nu_idade",
+              "type": "integer"
+            },
+            {
+              "name": "sg_sexo",
+              "type": "string"
+            },
+            {
+              "name": "tp_raca_cor",
+              "type": "string"
+            },
+            {
+              "name": "tp_escolaridade",
+              "type": "string"
+            },
+            {
+              "name": "co_municipio_ibge_residencia",
+              "type": "string"
+            },
+            {
+              "name": "co_municipio_ibge_ocorrencia",
+              "type": "string"
+            },
+            {
+              "name": "co_cid_causa_basica",
+              "type": "string"
+            },
+            {
+              "name": "desc_cid_causa_basica",
+              "type": "string"
+            },
+            {
+              "name": "capitulo_cid_causa_basica",
+              "type": "string"
+            },
+            {
+              "name": "categoria_cid_causa_basica",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "d5dc7a1c1eccc7c5bb0c7fd1bd160e44",
+          "bytes": 1278176,
+          "fields": 12,
+          "rows": 7371
+        }
+      },
+      "time": 0.328,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    }
+  ],
+  "stats": {
+    "errors": 1,
+    "tasks": 5
+  },
+  "valid": false
+}
