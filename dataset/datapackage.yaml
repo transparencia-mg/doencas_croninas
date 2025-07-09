@@ -344,7 +344,7 @@ resources:
           type: geopoint
           title: Idade
           description: Idade
-         - name: cs_sexo
+        - name: cs_sexo
           type: string
           title: Sexo
           description: Sexo
