@@ -92,7 +92,7 @@ resources:
     profile: tabular-data-resource
     schema:
       fields:
-         - name: dt_obito
+        - name: dt_obito
           type: date
           title: Data do Óbito
           description: Data do Óbito
@@ -252,7 +252,7 @@ resources:
     profile: tabular-data-resource
     schema:
       fields:
-         - name: dt_obito
+        - name: dt_obito
           type: date
           title: Data do Óbito
           description: Data do Óbito
