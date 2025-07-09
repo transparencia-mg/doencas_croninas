@@ -1,0 +1,338 @@
+{
+  "name": "doencas_croninas",
+  "owner_org": "secretaria-de-estado-de-saude-ses",
+  "profile": "data-package",
+  "resources": [
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "dados_cronicas_ses_2020",
+      "path": "data/dados_cronicas_SES_2020.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "dt_obito",
+            "type": "date"
+          },
+          {
+            "name": "dt_nascimento",
+            "type": "date"
+          },
+          {
+            "name": "nu_idade",
+            "type": "geopoint"
+          },
+          {
+            "name": "sg_sexo",
+            "type": "string"
+          },
+          {
+            "name": "tp_raca_cor",
+            "type": "string"
+          },
+          {
+            "name": "tp_escolaridade",
+            "type": "string"
+          },
+          {
+            "name": "co_municipio_ibge_residencia",
+            "type": "string"
+          },
+          {
+            "name": "co_municipio_ibge_ocorrencia",
+            "type": "string"
+          },
+          {
+            "name": "co_cid_causa_basica",
+            "type": "string"
+          },
+          {
+            "name": "desc_cid_causa_basica",
+            "type": "string"
+          },
+          {
+            "name": "capitulo_cid_causa_basica",
+            "type": "string"
+          },
+          {
+            "name": "categoria_cid_causa_basica",
+            "type": "string"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    },
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "dados_cronicas_ses_2021",
+      "path": "data/dados_cronicas_SES_2021.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "dt_obito",
+            "type": "date"
+          },
+          {
+            "name": "dt_nascimento",
+            "type": "datetime"
+          },
+          {
+            "name": "nu_idade",
+            "type": "geopoint"
+          },
+          {
+            "name": "sg_sexo",
+            "type": "string"
+          },
+          {
+            "name": "tp_raca_cor",
+            "type": "string"
+          },
+          {
+            "name": "tp_escolaridade",
+            "type": "string"
+          },
+          {
+            "name": "co_municipio_ibge_residencia",
+            "type": "string"
+          },
+          {
+            "name": "co_municipio_ibge_ocorrencia",
+            "type": "string"
+          },
+          {
+            "name": "co_cid_causa_basica",
+            "type": "string"
+          },
+          {
+            "name": "desc_cid_causa_basica",
+            "type": "string"
+          },
+          {
+            "name": "capitulo_cid_causa_basica",
+            "type": "string"
+          },
+          {
+            "name": "categoria_cid_causa_basica",
+            "type": "string"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    },
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "dados_cronicas_ses_2022",
+      "path": "data/dados_cronicas_SES_2022.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "dt_obito",
+            "type": "date"
+          },
+          {
+            "name": "dt_nascimento",
+            "type": "date"
+          },
+          {
+            "name": "nu_idade",
+            "type": "geopoint"
+          },
+          {
+            "name": "sg_sexo",
+            "type": "string"
+          },
+          {
+            "name": "tp_raca_cor",
+            "type": "string"
+          },
+          {
+            "name": "tp_escolaridade",
+            "type": "string"
+          },
+          {
+            "name": "co_municipio_ibge_residencia",
+            "type": "string"
+          },
+          {
+            "name": "co_municipio_ibge_ocorrencia",
+            "type": "string"
+          },
+          {
+            "name": "co_cid_causa_basica",
+            "type": "string"
+          },
+          {
+            "name": "desc_cid_causa_basica",
+            "type": "string"
+          },
+          {
+            "name": "capitulo_cid_causa_basica",
+            "type": "string"
+          },
+          {
+            "name": "categoria_cid_causa_basica",
+            "type": "string"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    },
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "dados_cronicas_ses_2023",
+      "path": "data/dados_cronicas_SES_2023.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "dt_obito",
+            "type": "date"
+          },
+          {
+            "name": "dt_nascimento",
+            "type": "date"
+          },
+          {
+            "name": "nu_idade",
+            "type": "geopoint"
+          },
+          {
+            "name": "sg_sexo",
+            "type": "string"
+          },
+          {
+            "name": "tp_raca_cor",
+            "type": "string"
+          },
+          {
+            "name": "tp_escolaridade",
+            "type": "string"
+          },
+          {
+            "name": "co_municipio_ibge_residencia",
+            "type": "string"
+          },
+          {
+            "name": "co_municipio_ibge_ocorrencia",
+            "type": "string"
+          },
+          {
+            "name": "co_cid_causa_basica",
+            "type": "string"
+          },
+          {
+            "name": "desc_cid_causa_basica",
+            "type": "string"
+          },
+          {
+            "name": "capitulo_cid_causa_basica",
+            "type": "string"
+          },
+          {
+            "name": "categoria_cid_causa_basica",
+            "type": "string"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    },
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "dados_cronicas_ses_2024",
+      "path": "data/dados_cronicas_SES_2024.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "dt_obito",
+            "type": "date"
+          },
+          {
+            "name": "dt_nascimento",
+            "type": "date"
+          },
+          {
+            "name": "nu_idade",
+            "type": "integer"
+          },
+          {
+            "name": "sg_sexo",
+            "type": "string"
+          },
+          {
+            "name": "tp_raca_cor",
+            "type": "string"
+          },
+          {
+            "name": "tp_escolaridade",
+            "type": "string"
+          },
+          {
+            "name": "co_municipio_ibge_residencia",
+            "type": "string"
+          },
+          {
+            "name": "co_municipio_ibge_ocorrencia",
+            "type": "string"
+          },
+          {
+            "name": "co_cid_causa_basica",
+            "type": "string"
+          },
+          {
+            "name": "desc_cid_causa_basica",
+            "type": "string"
+          },
+          {
+            "name": "capitulo_cid_causa_basica",
+            "type": "string"
+          },
+          {
+            "name": "categoria_cid_causa_basica",
+            "type": "string"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    }
+  ],
+  "title": "Doencas_croninas"
+}
