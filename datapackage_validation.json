@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 6.494,
+  "time": 6.503,
   "errors": [],
   "tasks": [
     {
@@ -32278,7 +32278,7 @@
           "rows": 0
         }
       },
-      "time": 1.001,
+      "time": 0.99,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -64431,7 +64431,7 @@
           "rows": 0
         }
       },
-      "time": 0.974,
+      "time": 0.986,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -96584,7 +96584,7 @@
           "rows": 0
         }
       },
-      "time": 0.932,
+      "time": 0.941,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -128737,7 +128737,7 @@
           "rows": 0
         }
       },
-      "time": 0.863,
+      "time": 0.866,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -159437,8 +159437,8 @@
             "IX. DOENÇAS DO APARELHO CIRCULATÓRIO",
             "INFARTO AGUDO DO MIOCARDIO"
           ],
-          "rowNumber": 15031,
-          "rowPosition": 15032,
+          "rowNumber": 15032,
+          "rowPosition": 15033,
           "code": "constraint-error",
           "name": "Constraint Error",
           "tags": [
@@ -159447,7 +159447,7 @@
             "#cell"
           ],
           "note": "constraint \"enum\" is \"['de 1 a 3 anos', 'de 4 a 7 anos', 'de 8 a 11 anos', 'Nenhuma', 'Ignorado']\"",
-          "message": "The cell \"12 anos e mais\" in row at position \"15032\" and field \"tp_escolaridade\" at position \"6\" does not conform to a constraint: constraint \"enum\" is \"['de 1 a 3 anos', 'de 4 a 7 anos', 'de 8 a 11 anos', 'Nenhuma', 'Ignorado']\"",
+          "message": "The cell \"12 anos e mais\" in row at position \"15033\" and field \"tp_escolaridade\" at position \"6\" does not conform to a constraint: constraint \"enum\" is \"['de 1 a 3 anos', 'de 4 a 7 anos', 'de 8 a 11 anos', 'Nenhuma', 'Ignorado']\"",
           "description": "A field value does not conform to a constraint."
         },
         {
@@ -160890,7 +160890,7 @@
           "rows": 0
         }
       },
-      "time": 0.809,
+      "time": 0.804,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -193043,7 +193043,7 @@
           "rows": 0
         }
       },
-      "time": 0.785,
+      "time": 0.792,
       "scope": [
         "hash-count-error",
         "byte-count-error",
